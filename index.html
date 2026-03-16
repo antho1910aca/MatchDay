@@ -171,7 +171,7 @@ nav{position:absolute;bottom:0;left:0;right:0;height:calc(var(--nav-h) + var(--s
 <div class="stat-card"><div class="label">Pays</div><div class="value" id="total-countries">0</div></div>
 <div class="stat-card wide"><div class="label">Prochainement</div><div class="value" style="font-size:18px;font-family:'DM Sans';font-weight:600">&#x1F30D; Coupe du Monde 2026</div></div>
 </div>
-<div class="section-header"><div class="section-title">Derniers matchs</div><div class="see-all" onclick="navigate('matchs')">Voir tout</div></div>
+<div class="section-header"><div class="section-title">Derniers matchs</div><div class="see-all" onclick="alert('clic ok'); navigate('matchs')">Voir tout</div></div>
 <div id="recent-matches-list"></div>
 </div>
 </section>
@@ -234,7 +234,7 @@ nav{position:absolute;bottom:0;left:0;right:0;height:calc(var(--nav-h) + var(--s
 </section>
 <nav>
 <div class="nav-item active" data-screen="home" onclick="navigate('home')"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg><span>Accueil</span></div>
-<div class="nav-item" data-screen="matchs" onclick="navigate('matchs')"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/><line x1="2" y1="12" x2="22" y2="12"/></svg><span>Matchs</span></div>
+<div class="nav-item" data-screen="matchs" onclick="alert('clic ok'); navigate('matchs')"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/><line x1="2" y1="12" x2="22" y2="12"/></svg><span>Matchs</span></div>
 <div class="nav-item" data-screen="joueurs" onclick="navigate('joueurs')"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg><span>Joueurs</span></div>
 <div class="nav-item" data-screen="carte" onclick="navigate('carte')"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="1 6 1 22 8 18 16 22 23 18 23 2 16 6 8 2 1 6"/><line x1="8" y1="2" x2="8" y2="18"/><line x1="16" y1="6" x2="16" y2="22"/></svg><span>Carte</span></div>
 <div class="nav-item" data-screen="stats" onclick="navigate('stats')"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg><span>Stats</span></div>
